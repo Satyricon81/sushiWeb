@@ -31,7 +31,7 @@
 
 .modal__img {
     width: 80%;
-    height: 70%;
+    height: 80%;
     object-fit: cover;
     border-radius: 5px;
 }
@@ -69,5 +69,30 @@
 
     .gallery__img--small {
         height: 200px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    
+    .gallery__img {
+        border-radius: 5px;
+    }
+
+    .modal__img {
+        width: 90%;
+        height: 90%;
+        object-fit: contain;
+        border-radius: 5px;
+    }
+}
+
+
+@media screen and (min-width:1024px) {
+
+    .modal__img {
+        width: 90%;
+        height: 90%;
+        object-fit: contain;
+        border-radius: 5px;
     }
 }
