@@ -77,25 +77,29 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     position: relative;
     z-index: 2000;
-    padding: 10px 5px;
+    padding: 0 10px;
 }
 
 .icon-menu {
     display: block;
-    color: white;
-    border: 1px solid white;
+    color: #DE423A;
+    border: 2px solid #DE423A;
     border-radius: 3px;
     width: 40px;
     height: 40px;
-    line-height: 44px;
+    line-height: 42px;
     text-align: center;
     cursor: pointer;
     font-size: 1.5em;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .social-icon {
     display: flex;
     justify-content: space-between;
+    padding-top: 8px;
+    margin: 0;
 }
 
 .social-icon__link {
@@ -158,14 +162,14 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.6);
     z-index: 1000;
     top: 0;
 }
 
 .banner__img {
     width: 100%;
-    height: 500px;
+    height: 520px;
     object-fit: cover;
 }
 
@@ -213,10 +217,10 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     text-align: center;
     text-decoration: none;
-    width: 120px;
+    width: 50%;
     background: #DE423A;
     color: white;
-    padding: 10px;
+    padding: 15px;
     margin: 10px auto;
 }
 
@@ -259,7 +263,7 @@ h1, h2, h3, h4, h5, h6 {
 .main-footer {
     background: #222;
     color: white;
-    padding: 10px;
+    padding: 15px;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: .8em;
@@ -273,6 +277,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .column__txt {
     font-size: 1.1em;
+    padding-left: 10px;
 }
 
 .column__txt i {
@@ -297,7 +302,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .main-nav .container {
-        padding: 10px 10px;
+        padding: 5px 10px;
     }
 
     .main__header-contactinfo {
@@ -314,6 +319,13 @@ h1, h2, h3, h4, h5, h6 {
 
     .main-nav {
         background: rgba(0,0,0,0.9);
+    }
+
+    .social-icon {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 5px;
+        margin: 0;
     }
 
     .banner {
@@ -369,9 +381,25 @@ h1, h2, h3, h4, h5, h6 {
         width: 30%;
         text-align: center;
     }
+
+    .btn {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        width: 90%;
+        background: #DE423A;
+        color: white;
+        padding: 15px 0;
+        margin: 10px auto;
+    }    
 }
 
 @media screen and (min-width:768px) {
+    .main__header {
+        width: 100%;
+        padding: 0 0.75em;
+    }
+    
     .main__title {
         font-size: 2.2em;
     }
@@ -435,7 +463,8 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .banner__img {
-        height: 670px;
+        height: 725px;
+        width: 100%;
     }
 
     .banner__content {
