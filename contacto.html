@@ -79,16 +79,17 @@
                         </a>
                     </div>
                 </div>
-                <form action="" method="POST" class="formulario column column--50">
-                    <label for="" class="formulario__label">Nombre:</label>
-                    <input type="text" class="formulario__input-txt" name="nombre">
-                    <label for="" class="formulario__label">Correo:</label>
-                    <input type="text" class="formulario__input-txt" name="correo">
-                    <label for="" class="formulario__label">Telefono:</label>
-                    <input type="text" class="formulario__input-txt" name="telefono">
-                    <label for="" class="formulario__label">Mensaje:</label>
-                    <textarea name="mensaje" id="" cols="30" rows="10" class="formulario__textarea"></textarea>
-                    <input type="submit" class=" btn formulario__btn" value="Enviar">
+                <!-- https://formsubmit.co/pablo.gutierrez.pruebas@gmail.com -->
+                <form action="./mail.php" method="POST" class="formulario column column--50">
+                    <label for="name" class="formulario__label">Nombre:</label>
+                    <input id="name" type="text" class="formulario__input-txt" name="nombre">
+                    <label for="email" class="formulario__label">Correo:</label>
+                    <input id="email" type="email" class="formulario__input-txt" name="correo">
+                    <label for="phone" class="formulario__label">Telefono:</label>
+                    <input id="phone" type="tel" class="formulario__input-txt" name="telefono">
+                    <label for="message" class="formulario__label">Mensaje:</label>
+                    <textarea id="message" name="mensaje" id="" cols="30" rows="10" class="formulario__textarea"></textarea>
+                    <input type="submit" class="btn formulario__btn" value="Enviar">
                 </form>
             </div>
         </section>
