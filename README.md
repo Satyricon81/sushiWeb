@@ -12,7 +12,7 @@
 
 # Web
 
-- www.sushihouse.pablogutierrezdev.com
+- sushihouse.pablogutierrezdev.com
 
 # Contacto
 
